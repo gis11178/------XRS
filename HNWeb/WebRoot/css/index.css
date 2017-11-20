@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 1010px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #EFEFEF;
+}
+.head ul{
+    width: 100%;
+    height: 100%;
+}
+.head ul li{
+    float: left;
+    font-size: 14px;
+    list-style: none;
+    line-height: 40px;
+    height: 100%;
+}
+.head ul li:first-child{
+    width: 240px;
+    margin-left: 10px;
+}
+.head ul li:nth-child(2){
+    width: 80px;
+}
+.head ul li:nth-child(3){
+    width: 50px;
+}
+.head ul li:last-child{
+    width: 240px;
+    float:right;
+    margin-right: 20px;
+}
+.middle{
+    width: 1010px;
+    height: 110px;
+    margin: 0 auto;
+}
+.middle div{
+    height: 60px;
+    margin-top: 25px;
+    float: right;
+}
+.middle .logo{
+    width: 80px;
+}
+.middle .Name{
+    width: 160px;
+}
+.middle .Name p{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: #0EF800;
+}
+.middle .search{
+    width: 450px;
+}
+.middle .search div{
+    width: 90px;
+    height: 44px;
+    margin-top: 8px;
+    margin-right: 8px;
+    background: #13CEB9;
+    border-radius: 0 5px 5px 0;
+}
+.middle .search div img{
+    width: 33px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.middle .search input{
+    width: 350px;
+    height: 42px;
+    border: 1px solid #13CEB9;
+    border-radius: 5px 0 0 5px;
+    margin-top: 8px;
+}
+.bottom{
+    width: 1010px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #D2D2D2;
+}
+.bottom ul{
+    width: 100%;
+    height: auto;
+}
+.bottom ul li{
+    width: 95%;
+    list-style: none;
+    line-height: 50px;
+    margin: 0 auto;
+    height: 50px;
+    border-bottom: 1px solid #CAD8E1;
+    position: relative;
+}
+.bottom ul li:first-child{
+    width: 100%;
+    position: relative;
+    color: #305581;
+    border-bottom:  1px solid #D2D2D2;
+}
+.bottom ul li img{
+    position: absolute;
+    top: 15px;
+}
+.bottom ul li:first-child label{
+    margin-left: 300px;
+}
+.bottom ul li:last-child{
+    border-bottom: none;
+
+}
+.bottom ul li:first-child select{
+    border: none;
+    color: #305581;
+    font-size: 16px;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+.bottom .title{
+    margin-left: 28px;
+}
+.bottom .New{
+    font-size: 12px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 2px;
+}
+.bottom .author{
+    position: absolute;
+    left: 670px;
+}
+.bottom .number{
+    position: absolute;
+    left: 780px;
+}
+.bottom .author1{
+    position: absolute;
+    left: 900px;
+}

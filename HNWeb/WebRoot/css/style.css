@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+/*----*/
+.header{
+	background:#EBEBEB;
+	min-height:40px;
+}
+.logo{
+	float:left;
+	max-width: 50px;
+    max-height: 50px;
+}
+
+.header-info {
+	padding-top: 0.6em;
+}
